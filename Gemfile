@@ -8,7 +8,7 @@ ruby '3.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
 # Use sqlite3 as the database for Active Record
-gem install sqlite3 -v '1.4.2' --source 'https://rubygems.org/'
+gem 'sqlite3', '~> 1.4.2'
 group :development, :test do
  gem 'sqlite3'
 end
